@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif
+}
+
+/* General  */
+.w-85{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-70{
+    width: 70%;
+    text-align: right;
+}
+.w-55{
+    width: 55%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40{
+    width: 40%;
+}
+.w-20{
+    width: 20%;
+}
+.w-25{
+    width: 25%;
+}
+.w-15{
+    width: 15%;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: 33%;
+}
+.marg-5{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.marg-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.marg-10{
+    margin-top: 10px;
+}
+.marg-25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.marg-30{
+    margin-top: 30px;
+}
+.pad-15{
+    padding-left: 15%;
+}
+.pad-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pad-10{
+    padding: 30px 10px;
+}
+.pad-60{
+    padding: 60px 10px;
+}
+.marg-60{
+    margin-top: -30px;
+}
+.pad-40{
+    padding-top: 40px;
+}
+.pad-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    
+}
+ul {
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.org{
+    color: orange;
+}
+.color{
+    background: #213b52;
+}
+.grey{
+    color: darkslategray
+}
+.gray{
+    color: #14181b;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capital{
+    text-transform: capitalize;
+}
+
+/* Section   # 1 */
+.nav{
+
+    padding: 15px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.list a{
+
+    color: #d2e0ed;
+    
+    display: inline-block;
+    padding-top: 5px;
+    margin: 5px 20px 5px 0px;
+}
+
+.list li{
+    display: inline-block;
+}
+.navh{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 5px;
+}
+.btn1{ 
+    color: white;
+    margin-left: 15px;
+    background-color: transparent;
+}
+button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid yellow;
+}
+.btn2{
+    color: dimgrey;
+    background-color: yellow;
+    border: 0;
+
+}
+
+.sec1-title{
+    padding-top: 45%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #d2e0ed;
+
+}
+.sec1-desc{
+    margin: 15px 0px 30px;
+    color: white;
+}
+.sec1-item img{
+    height:100vh;
+}
+
+
+/* arrow up */
+.icon-up{
+    position: sticky;
+    top: 90%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: darkorchid;
+    color: white;
+}
+
+
+/* section 2 */
+.sec2 img{
+    width: 10%;
+    height: 70px;
+    margin: 20px 3%;
+    
+}
+
+/* section 3 */
+.sec3{
+    line-height: 1.5;
+    word-spacing: 1.2;
+    background-color: rgb(237, 245, 245)
+}
+.sec3div{
+    position: relative;
+}
+.sec3-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: xx-large;
+    color: orange;
+}
+
+/* section 4 */
+.head{
+    text-align: center;
+}
+
+.head hr{ 
+    margin-left: auto;
+    margin-right: auto;
+    border-color: gray;
+    width: 15%;  
+}
+hr.yellow{
+    border: 0;
+    width: 5%;
+    height: 7px;
+    margin-top: -4px;
+    background-color: yellow;
+    border-radius: 3px;
+   
+
+}
+
+/* section 5 */
+.back{
+    background-color: rgb(237, 238, 238)
+}
+.sec4{
+    position: relative;
+
+}
+.sec4-abs{
+    position: absolute;
+    top: 85%;
+    padding:  15px;
+    background-color: white;
+    line-height: 1.3;
+
+   
+}
+.sec4-abs h2{
+    text-align: center;
+}
+.pad-25{
+    padding-top: 25px;
+    padding-bottom: 15%;
+}
+
+
+/* section 5 */
+.sec5-title{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color:#06141f
+}
+
+/* section 6 */
+.sec6 ul li a {
+    color: #14181b;
+}
+.sec6 ul li:first-child a{
+    color: orange;
+}
+.sec6 ul li a:hover{
+    color: orange;
+}
+/*section 7 */
+
+.sec7 * {
+    text-align: center;
+}
+
+.sec7 i{
+    color: cadetblue;
+}
+.sec7 i:hover{
+    color: rgb(194, 146, 56);
+}
+
+
+/* section 8 */
+
+.sec8 {
+    text-align: center;
+}
+.sec8 ul li {
+    padding-left: 50px;
+    margin-top: 15px;
+    line-height: 1.5;
+    color: grey;
+    word-spacing: 1.5;
+    text-align: left;
+}
+.div2{
+    border: 2px solid yellow;
+
+}
+
+.shadow{
+    /* box-shadow: 3px 3px grey ; */
+    box-shadow:0px 0px 5px 0px #b3adad inset;
+}
+
+
+
+
+/* 
+ul
+    padding-left: 50px;
+    margin-top: 15px;
+    line-height: 2;
+    color: grey;
+    word-spacing: 1.5;
+     */
